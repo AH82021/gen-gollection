@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* background-image styling */
+body{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* who we are and what we do styling  */
+#intro{
+    border: 1px solid;
+    border-radius: 20%;
+    width : 50%;
+    height: auto;
+    background: rgb(240, 148, 148);
+    margin: 2% 30%;
+}
+
+/* About us styling */
+#about-us{
+    width : 50%;
+    height: auto;
+    background: rgb(247, 160, 160);
+    margin: 2% 30%;
+}
+
+/* services section styling */
+.services{
+    display: flex;
+    justify-content:space-around;
+    margin: 2% 40%;
+}
+#design, #product, #sell{
+    background-color:rgb(247, 160, 160);
+}
+
