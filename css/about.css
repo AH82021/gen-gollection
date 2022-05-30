@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Background-image styling */
+body{
+background: rgb(9,214,232);
+background: linear-gradient(to right, #17d3f5 0%, #f4fcfc 100%);
+height: 100%;
+
+}
+/* Background styling end */
+
+#logo img{
+    height: 45px;
+    width: auto;
+    padding: 3px;
+    margin: auto;
+}
+
+/* Navbar list item opacity styling */
+#navbarNav ul li {
+    opacity: 0.7;
+}
+#navbarNav ul li:hover {
+    opacity: 1;
+}
+/* Navbar end */
+
+
+
+/* Who we are and what we do styling  */
+#intro{
+    border: 1px solid white;
+    border-radius: 20%;
+    width : 50%;
+    height: auto;
+    background: rgb(240, 148, 148);
+    margin: 1% 30%;
+}
+/* Who we are end */
+
+
+
+/* About us styling */
+#about-us{
+    border: 1px solid white;
+    width : 50%;
+    height: auto;
+    background: rgb(247, 160, 160);
+    margin: 1% 30%;
+}
+/* About us end */
+
+
+
+/* Services section styling */
+
+#design, #product, #sell{
+    background-color:rgb(247, 160, 160);
+    border: 1px solid white;
+}
+
+#services{
+    display:flex;
+    justify-content:space-between;
+    margin: 1% 40%;
+}
+/* Service end */
+
+/* footer styling  */
+
+/* footer social media icons styling  */
+
+.fa {
+    padding: 50px auto;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+    background:#ac2bac;
+    color: white;
+}
+/* footer end */
+
+/* Media query  */
+@media (min-width:768px){
+    #design, #product, #sell{
+        padding: 10%;
+}
+    #about-us{
+        font-size: 20px;
+    }
+}
