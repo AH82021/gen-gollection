@@ -1,106 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gen Collection</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+ crossorigin="anonymous">
+ <!-- bootstrap icons cdn -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="./css/shop.syltes.css">
+    <title>GenCol-Shop</title>
 </head>
-
 <body>
 
-    <head>
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./images/logo.png"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav nav-justified w-100 nav-fill ">
-                        <li class="nav-item">
-                            <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white js-scroll-trigger" href="#">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white js-scroll-trigger" href="#">About</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link text-white js-scroll-trigger" href="#">Log In</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">
-                                <img src="./images/search-icon-sm.png" alt="search logo icon">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./images/cart-sm.png" alt="cart logo icon">
-                            </a>
-                        </li>
+  
+  <section id="head-navbar">
+    <nav class="navbar navbar-expand-lg bg-white navbar-customclass fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo-gencol" class="img-fluidn rounded"   width="40"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="shop.html">shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="about.html">About</a>
+                  </li>
+                  <li class="nav-item " style="margin-left:10px ;">
+                    <a class="nav-link " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="bi bi-cart"></i><span class="badge bg-warning align-top product-total">0</span></a>
+                  </li>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <!-- End of Navabar  -->
+    
+     
+  <!-- Slider Section  Start-->
+    <section id="home" class="home pt-5 overflow-hidden" >
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="home-banner home-banner-1">
+                      <div class="home-banner-text">
+                        <h1 id="title">
+                          <span>G</span>
+                          <span>E</span>
+                          <span>N</span>
+                          <span>C</span>
+                          <span>O</span>
+                          <span>L</span>
+                         
+                    </h1>
+                          <h2>30% for this season</h2>
+                          <a href="#" class="btn btn-danger text-uppercase mt-4">Products</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="home-banner home-banner-2">
+                    <div class="home-banner-text">
+                        <h1>GenCol-Shop</h1>
+                        <h2>High Quality and Easy Payment</h2>
+                        <a href="#" class="btn btn-danger text-uppercase mt-4">Products</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="home-banner home-banner-3">
+                    <div class="home-banner-text">
+                        <h1>GenCol-Shop</h1>
+                        <h2>High Quality and Easy Payment</h2>
+                        <a href="#" class="btn btn-danger text-uppercase mt-4">Products</a>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+        <!-- Slider Section  End-->
+  <!-- Products Section -->
+    <div class="container  ">
+   
+      <h1 class="text-success text-center fw-bold p-4">PRODUCTS</h1>
+      <div class="row shop-products ">
+        
+  </div>
+      <!-- <div class="row product-row-2">
+          <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+              <div class="product"> <img src="https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="">
+                <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><a href=""><i class="bi bi-share"></i></a></i></li>
+                  <li class="icon mx-3"><a href=""><i class="bi bi-bag-heart"></i></a></i></li>
+                  <li class="icon"><a href="#"><i class="bi bi-bag"></i></a></i></li>
+              </ul>
+              </div>
+              <div class="tag bg-red">sale</div>
+              <div class="title pt-4 pb-1">Wireless Mouse</div>
+              <div class="d-flex align-content-center justify-content-center"> <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> </div>
+              <div class="price">$ 36.00</div>
+          </div>
+          <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+              <div class="product"> <img src="https://images.unsplash.com/photo-1582791694770-cbdc9dda338f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
+                <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><a href=""><i class="bi bi-share"></i></a></i></li>
+                  <li class="icon mx-3"><a href=""><i class="bi bi-bag-heart"></i></a></i></li>
+                  <li class="icon"><a href="#"><i class="bi bi-bag"></i></a></i></li>
+              </ul>
+              </div>
+              <div class="tag bg-black">out of stock</div>
+              <div class="title pt-4 pb-1">Hats</div>
+              <div class="d-flex align-content-center justify-content-center"> <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> </div>
+              <div class="price">$ 55.0</div>
+          </div>
+          <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+              <div class="product"> <img src="https://images.unsplash.com/photo-1546379753-abb7fd8cfb93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bXVnfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="">
+                <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><a href=""><i class="bi bi-share"></i></a></i></li>
+                  <li class="icon mx-3"><a href=""><i class="bi bi-bag-heart"></i></a></i></li>
+                  <li class="icon"><a href="#"><i class="bi bi-bag"></i></a></i></li>
+              </ul>
+              </div>
+              <div class="title pt-4 pb-1"> Coffee Mug</div>
+              <div class="d-flex align-content-center justify-content-center"> <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> </div>
+              <div class="price">$ 70.0</div>
+          </div>
+          <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+              <div class="product"> <img src="https://images.unsplash.com/photo-1624207827378-6d2e3d1a2a37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8a2V5Y2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><a href=""><i class="bi bi-share"></i></a></i></li>
+                  <li class="icon mx-3"><a href=""><i class="bi bi-bag-heart"></i></a></i></li>
+                  <li class="icon"><a href="#"><i class="bi bi-bag"></i></a></i></li>
+              </ul>
+              </div>
+              <div class="tag bg-green">new</div>
+              <div class="title pt-4 pb-1">Key Chains</div>
+              <div class="d-flex align-content-center justify-content-center"> <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> </div>
+              <div class="price">$ 60.0</div>
+          </div>
+      </div> -->
+  </div>
+
+  <!-- Offcanvas -->
+  
+ 
+  
+  <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title " id="offcanvasExampleLabel">Cart</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body cart-offCanvas">
+      <!-- <div class="cart-container">
+        <img src="./images/mug.jpg" alt="" class="img-fluid">
+        <div>
+          <h4>Mug</h4>
+          <h5>$16.00</h5>
+          <span  class="remove-item">remove</span>
+        </div>
+        <div class="item-number">
+          <i class="bi bi-chevron-compact-up text-warning .increase"></i>
+          <h6 class="item-amount text-center">1</h6>
+          <i class="bi bi-chevron-compact-down text-warning decrease"></i>
+        </div>
+      </div> -->
+       <!-- End of cart-containers -->
+       <div class="cart-footer">
+        <h3>your totol:$ <span class="cart-total">0</span></h3>
+        <button  class="btn btn-warning clear-cart banner-btn">
+          Clear Cart
+        </button>
+       </div>
+    </div>
+  </div>
+
+<!-- footer  Section-->
+<footer class="bg-dark py-5 ">
+  <div class="container">
+    <div class="row">
+        <!-- footer logo section -->
+        <div class="col-md-6 ">
+          <div class="row ">
+            <div class="col-md-6">
+              <href="#"><img src="./images/logo.png" alt="logo-gencol" class="  img-fluid rounded "   width="65"></a>
+                  <div class="py-4">
+                    <h6 class="text-white mt-4 ">Subscribe to our newsletter<i class="bi bi-envelope-plus text-warning"></i></h6>
+                    <div class="d-flex">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email">
+                      <button type="button" class="btn btn-warning mx-2">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                  <h6 class="text-white mt-1 ">Find us On Social Media</h6>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#"><i class="bi bi-github text-warning"></i></a>
+                      </li>
+                      <li>
+                        <a href=""><i class="bi bi-facebook text-warning"></i></a>
+                      </li>
+                      <li>
+                        <a href=""><i class="bi bi-twitter text-warning"></i></a>
+                      </li>
+                      <li>
+                        <a href=""><i class="bi bi-instagram text-warning"></i></a>
+                      </li>
                     </ul>
-                </div>
             </div>
-        </nav>
-    </head>
-    <main>
-        <section>
-            <div class="rounded-pill" id="intro">
-                <h3 class="text-center fw-bold">Who We Are</h3>
-            </div>
-            <section>
-                <div class="text-center rounded-pill px-5 py-5" id="about-us">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vel labore harum impedit libero laborum debitis delectus sint blanditiis minima saepe, fugi distinctio ipsam ad sed? Recusandae,harum iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab ut fugiat pariatur omnis blanditiis, quidem consequuntur, odio sequi voluptatem quos optio? Illo sint assumenda natus,doloremque facere qui in. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, temporibus. Molestiae,consectetur. </p>
-                </div>
-            </section>
-            <div class="rounded-pill " id="intro">
-                <h3 class="text-center fw-bold">What We Do</h3>
-            </div>
-            <section class="services">
-                <div class=" rounded-circle " id="design">
-                    <p class="text-center px-3 py-3">Design</p>
-                </div>
-                <div class=" rounded-circle " id="product">
-                    <p class="text-center  px-3 py-3">Produce</p>
-                </div>
-                <div class=" rounded-circle" id="sell">
-                    <p class="text-center  px-3 py-3">Market</p>
-                </div>
-                </div>
-            </section>
-        </section>
-    </main>
-    <footer class="d-flex ">
-        <section id="about">
-            <div>
-                <h6>About us</h6>
-            </div>
-        </section>
-        <section id="Newsletter">
-            <div>
-                <h6>Newsletter</h6>
-            </div>
-        </section>
-        <section id="follow">
-            <div>
-                <h6>Follow</h6>
-            </div>
-        </section>
-    </footer>
+          </div>
+      </div>
+<!-- card two -->
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6">
+              <h6 class="text-white mt-1 ">Contact Us</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <h6 class="text-white tw-bold" >Address:</h6>
+                  <a class="text-white" href="">123 Washington street</a>
+                </li>
+                <li>
+                <a class="text-white" href="">Policy</a>
+                </li>
+                <li>
+                <a class="text-white" href="">Track your order</a>
+                </li>
+                <li>
+                <a  class="text-white"href="">Google</a>
+                </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+              <h6 class="text-white mt-1 ">About us</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-white" href="">FAQ</a>
+                </li>
+                <li>
+                <a class="text-white" href="">Policy</a>
+                </li>
+                <li>
+                <a class="text-white" href="">Track your order</a>
+                </li>
+                <li>
+                <a  class="text-white"href="">Google</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="d-flex ">
+      <img class="ms-auto rounded" src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" alt="" height="40px">
+    </div>
+  </div>
+</footer>
 
-    <!-- Bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+    
+ 
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+ crossorigin="anonymous"></script>
+ <script  src="./js/productController.js"></script>
+ <script  src="./js/Product.js"></script>
+ <!-- <script type="module" src="./js/index.js"></script> -->
 </body>
-
 </html>

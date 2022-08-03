@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+#title{
+
+color: #d93127;
+}
+#title span{
+  font-size: 6rem;
+  font-weight: 800;
+  text-shadow: -0.08em 0.03em 0.12em rgb(0, 0, 0.9);
+}
+#title span:not(first-child){
+  margin-left: -0.3em;
+}
+
+@media (max-width:767px){
+
+  #title{
+   margin-left: 20px;
+    }
+  #title span{
+    font-size: 2rem;
+    font-weight: 800;
+    text-shadow: -0.08em 0.03em 0.12em rgb(0, 0, 0.9);
+  }
+
+  #title span:not(first-child){
+    margin-left: -0.3em;
+  }
+  
+
+  }
+
+
+  

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+ crossorigin="anonymous">
+ <!-- bootstrap icons cdn -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+ <link rel="stylesheet" href="./css/style.css">
+    <title>GenCol-Shop</title>
+</head>
+<body>
+  <section id="head-navbar">
+    <nav class="navbar navbar-expand-lg bg-white navbar-customclass fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo-gencol" class="img-fluidn rounded"   width="40"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link  aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shop">shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" " href="#contact.html">About</a>
+              </li>
+              <li class="nav-item " style="margin-left:10px ;">
+                <a class="nav-link " href="#contact.html"><i class="bi bi-cart"></i><span class="badge bg-warning align-top">9</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</section>
+
+<div class="container py-5 mt-5">
+  <div class="row">
+    <div class="col">
+      <h1 class="text-primary">About page</h1>
+      <button id="itemCounter" class="btn-danger" onclick="addItem">Add Item</button>
+    </div>
+  </div>
+</div>
+<div class="contain test-slide">
+  <div class="slide">
+    <div class="product-box">
+      <div class="img">
+        <img src="./images/EYE-PH.jpg" alt="Eyerusalem HeadShot">
+      </div>
+      <div class="details">
+        <p class="name">Eyerusalem Daniel</p>
+        <p class="price">Full-Stack Dev</p>
+      </div>
+      <div class="button">
+        <a href="#" class="add-btn">Linked<span class="bi bi-linkedin text-warning"></span></a>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img">
+        <img src="./images/ahPhoto.jpg" alt="">
+      </div>
+      <div class="details">
+        <p class="name">Ajmal Hakim</p>
+        <p class="price">Full-Stack Dev</p>
+      </div>
+      <div class="button">
+        <a href="#" class="add-btn">Linked<span class="bi bi-linkedin text-warning"></span></a>
+      </div>
+    </div>
+    <div class="product-box">
+      <div class="img">
+        <img src="./images/EB-PH.jpg" alt="">
+      </div>
+      <div class="details">
+        <p class="name">Ebtsam Negash</p>
+        <p class="price">Full-Stack Dev</p>
+      </div>
+      <div class="button">
+        <a href="#" class="add-btn">Linked<span class="bi bi-linkedin text-warning"></span></a>
+      </div>
+    </div>
+    <!-- <div class="product-box">
+      <div class="img">
+        <img src="./images/logo.png" alt="">
+      </div>
+      <div class="details">
+        <p class="name">Mactree</p>
+        <p class="price">$180</p>
+      </div>
+      <div class="button">
+        <a href="#" class="add-btn">Linked<span class="bi bi-linkedin text-warning"></span></a>
+      </div>
+    </div> -->
+    <!-- <div class="product-box">
+      <div class="img">
+        <img src="./images/logo.png" alt="">
+      </div>
+      <div class="details">
+        <p class="name">Gold Shine</p>
+        <p class="price"><s>Only 6 pairs left!</s>SOLD OUT!</p>
+      </div>
+      <div class="button">
+        <a href="#" class="add-btn">Linked<span class="bi bi-linkedin text-warning"></span></a>
+      </div>
+    </div> -->
+    <div class="product-box">
+      <div class="img">
+        <img src="./images/RL-PH.jpg" alt="">
+      </div>
+      <div class="details">
+        <p class="name">Renee Larson</p>
+        <p class="price">Full-Stack Dev</p>
+      </div>
+      <div class="button">
+        <a href="#" class="add-btn">Linked<span class="bi bi-linkedin text-warning"></span></a>
+      </div>
+    </div>
+  </div>
+</div> 
+  
+  <!-- footer  Section-->
+<footer class="bg-dark py-5 ">
+  <div class="container">
+    <div class="row">
+        <!-- footer logo section -->
+        <div class="col-md-6 ">
+          <div class="row ">
+            <div class="col-md-6">
+              <href="#"><img src="./images/logo.png" alt="logo-gencol" class="  img-fluid rounded "   width="65"></a>
+                  <div class="py-4">
+                    <h6 class="text-white mt-4 ">Subscribe to our newsletter<i class="bi bi-envelope-plus text-warning"></i></h6>
+                    <div class="d-flex">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email">
+                      <button type="button" class="btn btn-warning mx-2">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                  <h6 class="text-white mt-1 ">Find us On Social Media</h6>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#"><i class="bi bi-github text-warning"></i></a>
+                      </li>
+                      <li>
+                        <a href=""><i class="bi bi-facebook text-warning"></i></a>
+                      </li>
+                      <li>
+                        <a href=""><i class="bi bi-twitter text-warning"></i></a>
+                      </li>
+                      <li>
+                        <a href=""><i class="bi bi-instagram text-warning"></i></a>
+                      </li>
+                    </ul>
+            </div>
+          </div>
+      </div>
+<!-- card two -->
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6">
+              <h6 class="text-white mt-1 ">Contact Us</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <h6 class="text-white tw-bold" >Address:</h6>
+                  <a class="text-white" href="">123 Washington street</a>
+                </li>
+                <li>
+                <a class="text-white" href="">Policy</a>
+                </li>
+                <li>
+                <a class="text-white" href="">Track your order</a>
+                </li>
+                <li>
+                <a  class="text-white"href="">Google</a>
+                </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+              <h6 class="text-white mt-1 ">About us</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-white" href="">FAQ</a>
+                </li>
+                <li>
+                <a class="text-white" href="">Policy</a>
+                </li>
+                <li>
+                <a class="text-white" href="">Track your order</a>
+                </li>
+                <li>
+                <a  class="text-white"href="">Google</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="d-flex ">
+      <img class="ms-auto rounded" src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" alt="" height="40px">
+    </div>
+  </div>
+</footer>
+<script src="./js/app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+ crossorigin="anonymous"></script>
+</body>
+</html>

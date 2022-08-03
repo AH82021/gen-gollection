@@ -1,0 +1,189 @@
+{
+  "products": [
+  {
+  "id": "1" ,
+  "title": "Custom Cohort Sweater",
+  "price": 59.99,
+  "market":"New",
+  "rating":"5",
+  "badgeID":"red",
+  "url": "../images/product-1.jpeg"
+  
+  },
+  
+  {
+  "id": "2" ,
+  "title": "Code or Code",
+  "price": 21.99,
+  "market":"limted",
+  "rating":"4.5",
+  "badgeID":"green",
+  "url": "../images/product-2.jpeg"
+  },
+  {
+  "id": "3" ,
+  "title": "Stickers",
+  "price": 7.99,
+  "market":"sold-out",
+  "badgeID":"black",
+  "rating":"5",
+  "url": "../images/product-3.jpeg"
+  
+  },
+  {
+  "id": "4" ,
+  "title": "Cohort Memories",
+  "price": 79.99,
+  "market":"Limted Edition",
+  "rating":"5",
+  "badgeID":"green",
+  "url": "../images/product-4.jpeg"
+  
+  },
+  {
+  "id": "5" ,
+  "title": "Wireless Mouse",
+  "price": 20.99,
+  "market":"sale",
+  "badgeID":"red",
+  "rating":"4.3",
+  "url": "../images/product-5.jpeg"
+  
+  },
+  {
+  "id": "6" ,
+  "title": "Custom Hats",
+  "price": 79.99,
+  "market":"Exclusive",
+  "rating":"5",
+   "badgeID":"red",
+  "url": "../images/product-6.jpeg"
+  
+  },
+  {
+  "id": "7" ,
+  "title": "Coffee Mugs",
+  "price": 14.99,
+  "market":"New",
+  "rating":"4.7",
+   "badgeID":"red",
+  "url": "../images/product-7.jpeg"
+  
+  },
+  {
+  "id": "8" ,
+  "title": "Key chains",
+  "price": 9.99,
+  "market":"sale",
+  "rating":"4.6",
+   "badgeID":"red",
+  "url": "../images/product-8.jpeg"
+  
+  },
+  
+  {
+  "id": "9" ,
+  "title": "water bottles",
+  "price": 39.99,
+  "market":"New",
+  "rating":"4.4",
+   "badgeID":"red",
+  "url": "../images/product-9.jpeg"
+  
+  },
+  {
+  "id": "10" ,
+  "title": "book bag",
+  "price": 19.99,
+  "market":"New",
+  "rating":"4.1",
+   "badgeID":"red",
+  "url": "../images/product-10.jpeg"
+  
+  },
+  {
+  "id": "11" ,
+  "title": "Phone cases",
+  "price": 29.99,
+  "market":"New",
+  "rating":"5",
+   "badgeID":"red",
+  "url": "../images/product-11.jpeg"
+  
+  },
+  {
+  "id": "12" ,
+  "title": "headphones",
+  "price": 14.99,
+  "market":"Sale",
+  "rating":"5",
+   "badgeID":"red",
+  "url": "../images/product-12.jpeg"
+  
+  },
+  {
+  "id": "13" ,
+  "title": "calendar",
+  "price": 10.99,
+  "market":"sale",
+  "rating":"4.8",
+   "badgeID":"red",
+  "url": "../images/product-13.jpeg"
+  
+  },
+  {
+  "id": "14" ,
+  "title": "notebooks",
+  "price": 25.99,
+  "market":"New",
+  "rating":"5",
+   "badgeID":"red",
+  "url": "../images/product-14.jpeg"
+  
+  },
+  {
+  "id": "15" ,
+  "title": "Yoga Mats",
+  "price": 34.99,
+  "market":"sale",
+  "rating":"4.2",
+   "badgeID":"red",
+  "url": "../images/product-15.jpeg"
+  
+  },
+  {
+  "id": "16" ,
+  "title": "airpod covers",
+  "price": 49.99,
+  "market":"New",
+  "rating":"5",
+   "badgeID":"red",
+  "url": "../images/product-16.jpeg"
+  
+  },
+  {
+  "id": "17" ,
+  "title": "Twin Bells",
+  "price": 9.99,
+  "market":"sold-out",
+  "rating":"5",
+   "badgeID":"black",
+  "url": "../images/product-17.jpeg"
+  
+  },
+  {
+  "id": "18" ,
+  "title": "laptop stand",
+  "price": 15.99,
+  "market":"sale",
+  "rating":"5",
+   "badgeID":"red",
+  "url": "../images/product-18.jpeg"
+  
+  }
+  
+  
+  ]
+  }
+
+ 
